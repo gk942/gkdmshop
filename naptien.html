@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nạp Tiền MB Bank</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <header><h1>Nạp Tiền MB Bank</h1></header>
+  <main>
+    <p>Quét mã QR hoặc chuyển khoản theo thông tin bên dưới:</p>
+    <div id="qrcode"></div>
+    <pre id="info"></pre>
+    <p><a href="index.html">← Quay về trang chủ</a></p>
+  </main>
+  <script src="firebase-config.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+  <script src="naptien.js"></script>
+</body>
+</html>
