@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Đăng nhập / Đăng ký</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Đăng nhập / Đăng ký</h1></header>
+  <main>
+    <div id="auth-forms">
+      <div id="login-form">
+        <h2>Đăng nhập</h2>
+        <input type="email" id="login-email" placeholder="Email" />
+        <input type="password" id="login-password" placeholder="Mật khẩu" />
+        <button onclick="login()">Đăng nhập</button>
+      </div>
+      <div id="register-form" style="margin-top:20px;">
+        <h2>Đăng ký</h2>
+        <input type="email" id="register-email" placeholder="Email" />
+        <input type="password" id="register-password" placeholder="Mật khẩu" />
+        <button onclick="register()">Đăng ký</button>
+      </div>
+    </div>
+    <div id="message"></div>
+    <p><a href="index.html">← Quay về trang chủ</a></p>
+  </main>
+  <script src="firebase-config.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
