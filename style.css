@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0 20px;
+  color: #333;
+}
+header {
+  background: #2a9d8f;
+  color: white;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 0;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+}
+.acc-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  align-items: center;
+}
+.acc-item img {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+.acc-info {
+  flex-grow: 1;
+}
+button.buy-btn {
+  background: #e76f51;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+button.buy-btn:hover {
+  background: #d45d3d;
+}
+#user-info {
+  float: right;
+}
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+pre {
+  background: #eee;
+  padding: 10px;
+  max-width: 350px;
+}
